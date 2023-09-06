@@ -24,7 +24,12 @@ Optaria pela solução Horusec, visto que esta tem por opção --não obrigatór
 
 SARIF output: No bandit essa opção vem por padrão, já expondo no Projeto, facilitando a vida dos envolvidos, já que centraliza tudo no próprio github.
 
-
+Utilizar as ferramentas acima nos garante:
+- Proteção da reputação da empresa
+- Redução de riscos de segurança
+- Conformidade com padrões de segurança
+- Melhoria da qualidade do código
+- Identificação precoce de vulnerabilidades
 
 -----------------------
 
