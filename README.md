@@ -1,3 +1,33 @@
+# Desafio DevSecOps
+
+Este projeto trata-se de um desafio para o Voluntariado de DevSecOps da Lacrei!
+
+## Bandit
+
+Conforme o padrão, o teste executará a cada push ou PR na branch master e toda Quarta-Feira, as 7:19h, utilizando o cron. Adicionei a execução manual, caso queira validar alguns pontos.
+
+A análise já é integrada com o github(_SARIF_). No menu [_Security_](https://github.com/3rdglaz/flask-restplus-server-example/security/code-scanning)
+
+## SAST/SCA alternativa
+
+Pensei em duas alternativas, sendo estas: 
+
+1. SonarQube
+
+2. Horusec
+
+### [Horusec](https://horusec.io/site/)
+
+Optaria pela solução Horusec, visto que esta tem por opção --não obrigatório; uma interface web para exibir de forma analítica as informações, além de facilitar a integração com a ferramenta Bandit.
+
+## Observações
+
+SARIF output: No bandit essa opção vem por padrão, já expondo no Projeto, facilitando a vida dos envolvidos, já que centraliza tudo no próprio github.
+
+
+
+-----------------------
+
 [![Build Status](https://travis-ci.org/frol/flask-restplus-server-example.svg)](https://travis-ci.org/frol/flask-restplus-server-example)
 [![Coverage Status](https://coveralls.io/repos/frol/flask-restplus-server-example/badge.svg?branch=master&service=github)](https://coveralls.io/github/frol/flask-restplus-server-example?branch=master)
 [![Codacy Coverage Status](https://api.codacy.com/project/badge/coverage/b0fc91ce77d3437ea5f107c4b7ccfa26)](https://www.codacy.com/app/frolvlad/flask-restplus-server-example)
