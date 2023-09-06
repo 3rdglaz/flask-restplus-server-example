@@ -20,6 +20,14 @@ Pensei em duas alternativas, sendo estas:
 
 Optaria pela solução Horusec, visto que esta tem por opção --não obrigatório; uma interface web para exibir de forma analítica as informações, além de facilitar a integração com a ferramenta Bandit.
 
+#### Flags
+
+Utilizei algumas Flags na pipeline que simplificam a entrega mas não facilitam a leitura dos dados, estas são:
+```
+--disable-docker="true" # pula a necessidade do docker
+
+--information-severity=true   # entrega no fluxo info das vulnerabilidades
+```
 ## Observações
 
 SARIF output: No bandit essa opção vem por padrão, já expondo no Projeto, facilitando a vida dos envolvidos, já que centraliza tudo no próprio github.
