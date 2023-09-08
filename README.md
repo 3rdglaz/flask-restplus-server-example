@@ -1,5 +1,8 @@
 # Desafio DevSecOps
 
+[![Bandit](https://github.com/3rdglaz/flask-restplus-server-example/actions/workflows/bandit.yml/badge.svg)](https://github.com/3rdglaz/flask-restplus-server-example/actions/workflows/bandit.yml)
+[![SecurityPipeline](https://github.com/3rdglaz/flask-restplus-server-example/actions/workflows/horusec.yml/badge.svg)](https://github.com/3rdglaz/flask-restplus-server-example/actions/workflows/horusec.yml)
+
 Este projeto trata-se de um desafio para o Voluntariado de DevSecOps da Lacrei!
 
 ## Bandit
